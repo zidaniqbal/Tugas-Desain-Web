@@ -8,7 +8,8 @@
   Mata Kuliah : Desain Web
 </br>
 </br>
-<strong><font color="#f0f0g88f"><font size="5">Form Biodata Peserta</font></font></br></strong>
+<body bgcolor="#FFFF00"></body>
+<marquee direction="up"><strong><font color="#f0f0g88f"><font size="5">Form Biodata Peserta</marquee></font></font></br></strong>
 </br>
 </head>
 </html>
@@ -77,4 +78,4 @@
   </div>
   <button type="reset">Reset</button>
   <button type="submit">Submit</button>
-</form>   
+</form>

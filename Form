@@ -1,1 +1,80 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  Nama        : Zidan Iqbal Herwanda
+</br>
+  NPM         : 4520210042
+</br>
+  Mata Kuliah : Desain Web
+</br>
+</br>
+<strong><font color="#f0f0g88f"><font size="5">Form Biodata Peserta</font></font></br></strong>
+</br>
+</head>
+</html>
+<title>Zidan Form HTML</title>
+<form action="results.html" method="GET" enctype="multipart/form-data">
+    <div>
+      <label for="nama">Nama Pengguna</br></label>
+      <input type="text" name="nama" id="nama" required>
+  </div>
+  <div>
+    <label for="email">Email Pengguna</br></label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div>
+    <label for="umur">Umur</br></label>
+    <input type="number" name="umur" id="umur" min="1" max="200" step="5">
+  </div>
+  <div>
+    <label for="date">Tanggal Lahir</br></label>
+    <input type="date" name="date" id="date" min="2019-06-10">
+  </div>
+</br>
+<div>
+  <strong><font color="#f0f0g88f">Makanan Kesukaan</font></strong>
+    <div>
+      <label for="Mie Goreng">Mie Goreng</label>
+      <input type="checkbox" name="Mie Goreng" id="Mie Goreng">
+    </div>
+    <div>
+      <label for="Soto Betawi">Soto Betawi</label>
+      <input type="checkbox" name="Soto Betawi" id="Soto Betawi">
+    </div>
+  </div>
+  <div>
+</br>
+<strong><font color="#f0f0g88f">Jenis Kelamin</font></strong>
+    <div>
+      <label for="laki laki">Laki Laki</label>
+      <input type="radio" name="laki laki" id="laki laki" value="laki laki">
+    <div>
+      <label for="Perempuan">Perempuan</label>
+      <input type="radio" name="Perempuan" id="Perempuan" value="Perempuan">
+    </div>
+  <div>
+    <label for="Alamat Lengkap">Alamat Lengkap</br></label>
+    <textarea id="Alamat Lengkap" name="Alamat Lengkap"></textarea>
+  </div>
+  <input type="hidden" name="hidden" value="hi">
+  <div>
+    <label for="pas foto">Pas Foto</label>
+    <input id="foto" type="file" name="pas foto">
+  </div>
+  <div>
+    <label for="nohp">Nomor Handphone</br></label>
+    <input type="tel" name="nohp" id="nohp">
+  </div>
+  <div>
+    <label for="color">Warna kesukaan</label>
+    <input type="color" name="color" id="color">
+  </div>
+  <div>
+    <label>
+      Password</br>
+      <input type="password" name="password" required>
+    </label>
+  </div>
+  <button type="reset">Reset</button>
+  <button type="submit">Submit</button>
+</form>   

@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  Nama        : Zidan Iqbal Herwanda
+</br>
+  NPM         : 4520210042
+</br>
+  Mata Kuliah : Desain Web
+</br>
+</br>
+<strong><font color="red"><font size="5">Form Tab Peserta</font></font></br></strong>
+</br>
+</head>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zidan Table HTML</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Nama</th>
+            <th colspan="3">Nilai</th>
+        </tr>
+        <tr>
+            <th>Alpro</th>
+            <th>Desain Web</th>
+            <th>Kalkulus</th>
+        </tr>
+        <tr>
+            <td>Zidan</td>
+            <td>90</td>
+            <td>88</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>Kharitul</td>
+            <td>88</td>
+            <td>78</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Erik</td>
+            <td>96</td>
+            <td>90</td>
+            <td>89</td>
+        </tr>
+    </table>
+</body>
+</html>
